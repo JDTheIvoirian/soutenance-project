@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.product-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-images {
+    flex: 1;
+    padding: 20px;
+}
+
+.product-images .main-image {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.thumbnail-images img {
+    width: 48px;
+    height: auto;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+
+.product-info {
+    flex: 2;
+    padding: 20px;
+}
+
+.delivery-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.free-delivery {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.timer {
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.rating {
+    margin: 10px 0;
+}
+
+.rating .stars {
+    color: #FFD700;
+}
+
+.price .amount {
+    font-size: 32px;
+    color: #28a745;
+    margin: 10px 0;
+}
+
+.payment-options {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.add-to-bucket, .buy-now {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-bucket {
+    background-color: #28a745;
+}
+
+.buy-now {
+    background-color: #ffc107;
+}
+
+.additional-options {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.additional-options a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.additional-options a:hover {
+    text-decoration: underline;
+}
+
+.product-meta, .popularity, .product-description {
+    margin: 20px 0;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #555;
+}

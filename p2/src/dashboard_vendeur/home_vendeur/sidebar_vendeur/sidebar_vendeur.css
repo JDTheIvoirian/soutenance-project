@@ -1,0 +1,64 @@
+.sidebar {
+    width: 20%;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .user-info {
+    text-align: center;
+  }
+  
+  .user-info img {
+    width: 80px;
+    border-radius: 50%;
+  }
+  
+  .user-info h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .menu a{
+    display: block;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  
+  
+  .menu Link{
+    display: block;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu a:hover {
+    color: whitesmoke;
+    background-color: #28a745;
+  }
+  
+  .menu Link:hover {
+    color: whitesmoke;
+    background-color: #28a745;
+  }
+  
+  .pro-access button {
+    background-color: #28a745;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

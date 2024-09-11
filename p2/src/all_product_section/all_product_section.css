@@ -1,0 +1,27 @@
+.filter-section {
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.filters button {
+    background-color: #2c4a3d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
