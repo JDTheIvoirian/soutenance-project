@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    height: 100vh;
+    margin-top: 5vh;
+    border-radius: 20px;
+  }
+  
