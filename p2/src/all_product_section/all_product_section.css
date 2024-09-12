@@ -17,6 +17,13 @@
     padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.filters button:hover {
+    color: #2c4a3d;
+    background-color: #fcb040;
+    transition: all 0.3s ease-in-out;
 }
 
 .product-grid {
