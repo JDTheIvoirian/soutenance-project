@@ -120,7 +120,7 @@ const Navbar = () => {
                 <Link to={`/marketplace`} className="order-link">Marketplace</Link>
             </div>
             <div className="profile-icon">
-                <Link to={`/marketplace`} className="order-link"><img src={panier} alt="" /></Link>
+                <Link to={`/panier`} className="order-link"><img src={panier} alt="" width="40px" height="40px" /></Link>
             </div>
             <div className="profile-icon">
                 <Link to={`/marketplace`} className="order-link"><img src={user} alt="" width="50px" height="50px" /></Link>

@@ -1,0 +1,53 @@
+.order-summary {
+    width: 48%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-method label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+  }
+  
+  .promo {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .promo input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .promo button {
+    padding: 10px 20px;
+    background-color: #3d9970;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .summary-details p {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+  }
+  
+  .confirm {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #85c240;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  

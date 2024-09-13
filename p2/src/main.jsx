@@ -18,6 +18,7 @@ import RevenueVendeur from '../src/dashboard_vendeur/home_vendeur/revenue_vendeu
 import ProduitsVendeur from '../src/dashboard_vendeur/home_vendeur/produits_vendeur/produits_vendeur.jsx'
 import ServicesEnDehorsDuSite from '../src/dashboard_vendeur/home_vendeur/services_en_dehors_du_site_vendeur/services_en_dehors_du_site.jsx'
 import ParametreVendeur from '../src/dashboard_vendeur/home_vendeur/parametre_vendeur/parametre_vendeur.jsx'
+import Panier from './panier/panier.jsx'
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/marketplace",
     element: <Marketplace />,
+  },
+  {
+    path: "/panier",
+    element: <Panier />,
   },
   {
     path: "/dashboard_vendeur",
