@@ -12,13 +12,13 @@ const SidebarVendeur = ({onContentChange}) => {
                     <p>borisFodjo@gmail.com</p>
                 </div>
                 <nav className="menu">
-                    <Link to="/dashboard_vendeur">Acceuil</Link>
-                    <a href="#">Commandes</a>
-                    <Link to="commentaires" onClick={() => onContentChange("Commentaires Oui")}>Commentaires</Link>
-                    <a href="#">Revenues</a>
-                    <a href="#">Produits</a>
-                    <a href="#">Services en dehors du site</a>
-                    <a href="#">Paramètre</a>
+                    <Link to="/dashboard_vendeur" onClick={() => onContentChange("Acceuil")}>Acceuil</Link>
+                    <Link to="commande" onClick={() => onContentChange("Commandes")}>Commande</Link>
+                    <Link to="commentaires" onClick={() => onContentChange("Commentaires")}>Commentaires</Link>
+                    <Link to="revenue" onClick={() => onContentChange("Revenues")}>Revenues</Link>
+                    <Link to="produits" onClick={() => onContentChange("Produits")}>Produits</Link>
+                    <Link to="serivce_en_dehors_du_site" onClick={() => onContentChange("Services")}>Services en dehors du site</Link>
+                    <Link to="paramètre_vendeur" onClick={() => onContentChange("Paramètre")}>Paramètre</Link>
                 </nav>
                 <div className="pro-access">
                     <button>Service Pro</button>

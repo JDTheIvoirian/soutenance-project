@@ -12,6 +12,12 @@ import QuiSommesNous from './qui_sommes_nous/qui_sommes_nous.jsx'
 import NousContacter from './nous_contacter/nous_contacter.jsx'
 import Marketplace from './marketplace/marketplace.jsx'
 import DashboardVendeur from './dashboard_vendeur/dashboard_vendeur.jsx'
+import CommentairesVendeur from '../src/dashboard_vendeur/home_vendeur/commentaires_vendeur/commentaires_vendeur.jsx'
+import CommandeVendeur from '../src/dashboard_vendeur/home_vendeur/commande_vendeur/commande_vendeur.jsx'
+import RevenueVendeur from '../src/dashboard_vendeur/home_vendeur/revenue_vendeur/revenue_vendeur.jsx'
+import ProduitsVendeur from '../src/dashboard_vendeur/home_vendeur/produits_vendeur/produits_vendeur.jsx'
+import ServicesEnDehorsDuSite from '../src/dashboard_vendeur/home_vendeur/services_en_dehors_du_site_vendeur/services_en_dehors_du_site.jsx'
+import ParametreVendeur from '../src/dashboard_vendeur/home_vendeur/parametre_vendeur/parametre_vendeur.jsx'
 
 const router = createBrowserRouter([
   {
@@ -40,7 +46,28 @@ const router = createBrowserRouter([
     children: [
       {
         path: "commentaires",
-        element: <div>Commentaires</div>,
+        element: <CommentairesVendeur />,
+      },
+      {
+        path: "commande",
+        element: <CommandeVendeur />,
+      },
+      {
+        path: "revenue",
+        element: <RevenueVendeur />,
+      },
+      {
+        path: "produits",
+        element: <ProduitsVendeur />,
+      },
+      {
+        path: "serivce_en_dehors_du_site",
+        element: <ServicesEnDehorsDuSite />,
+      },
+      
+      {
+        path: "paramètre_vendeur",
+        element: <ParametreVendeur />,
       },
     ],
   },
