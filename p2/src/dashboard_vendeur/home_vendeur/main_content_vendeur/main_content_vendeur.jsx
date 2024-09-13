@@ -8,7 +8,7 @@ import StatSectionVendeur from '../stat_section_vendeur/stat_section_vendeur';
 const MainContentVendeur = ({chartRef1, chartRef2}) => {
     return (
         <>
-            <main className="content">
+            <main className="conten">
                 <HeaderVendeur />
                 <StatSectionVendeur />
                 <InfluencerSectionVendeur chartRef1={chartRef1} chartRef2={chartRef2} />

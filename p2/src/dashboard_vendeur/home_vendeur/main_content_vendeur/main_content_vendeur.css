@@ -1,5 +1,12 @@
-.content {
-    flex-grow: 1;
-    padding: 20px;
-  }
-  
+.conten {
+  display: block; /* Assurez-vous que le main est en mode bloc */
+  width: 100%; /* Occupe la largeur totale */
+  margin-left: 1vh;
+  margin-top: 1vh;
+}
+
+header, .stat-section, .influencer-section {
+  display: block; /* Assurez-vous que chaque section est en bloc */
+  width: 100%;
+  margin-bottom: 20px; /* Ajoutez de l'espacement entre les sections si nécessaire */
+}

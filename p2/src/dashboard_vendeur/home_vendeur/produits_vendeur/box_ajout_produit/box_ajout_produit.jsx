@@ -5,7 +5,7 @@ import ImageUpload from '../image_upload_zone/image_upload';
 
 const BoxAjoutProduit = () => {
     return (
-        <div className="container">
+        <div className="box-ajout-produit-container">
             <FormulaireAjoutProduit />
             <ImageUpload />
         </div>

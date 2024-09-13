@@ -6,7 +6,7 @@ import FilterBar from "./filter_bar/filter_bar";
 
 const CommandeVendeur = () => {
     return (
-        <div className="content">
+        <div className="conten">
             <HeaderVendeur />
             <FilterBar />
             <CampaignTable />

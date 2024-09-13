@@ -5,7 +5,7 @@ import BoxAjoutProduit from "./box_ajout_produit/box_ajout_produit";
 
 const ProduitsVendeur = () => {
     return (
-        <div className="content">
+        <div className="conten">
             <HeaderVendeur />
             <BoxAjoutProduit />
         </div>
