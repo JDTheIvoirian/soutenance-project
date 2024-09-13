@@ -21,24 +21,89 @@
 }
 
 .search-bar {
+    position: relative;
     display: flex;
-    align-items: center;
+    align-items: center; /* Alignement vertical */
 }
 
 .search-bar input {
-    padding: 5px 10px;
-    border: none;
+    padding: 8px;
+    width: 300px;
     border-radius: 4px;
-    margin-right: 10px;
-    width: 70vh;
+    box-sizing: border-box; /* S'assure que le padding ne change pas la taille */
 }
 
-.search-button {
+.search-bar .search-button {
+    padding: 8px 12px;
+    margin-left: 8px;
     background-color: #fcb040;
+    color: #2c4a3d;
     border: none;
-    padding: 5px 10px;
-    border-radius: 4px;
     cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-results {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    color: #2c4a3d;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 600px;
+    border-radius: 4px;
+    z-index: 1000;
+    padding: 10px;
+    display: flex;
+}
+
+.search-results .suggestions,
+.search-results .products,
+.search-results .stores {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.suggestions ul,
+.stores ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.suggestions li,
+.stores li {
+    margin-bottom: 5px;
+}
+
+.suggestions li:hover,
+.stores li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.search-results a {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.search-results a:hover {
+    text-decoration: underline;
 }
 
 .order-info {    
