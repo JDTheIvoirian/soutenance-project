@@ -123,7 +123,7 @@ const Navbar = () => {
                 <Link to={`/panier`} className="order-link"><img src={panier} alt="" width="40px" height="40px" /></Link>
             </div>
             <div className="profile-icon">
-                <Link to={`/marketplace`} className="order-link"><img src={user} alt="" width="50px" height="50px" /></Link>
+                <Link to={`/inscription_client`} className="order-link"><img src={user} alt="" width="50px" height="50px" /></Link>
             </div>
         </header>
     );

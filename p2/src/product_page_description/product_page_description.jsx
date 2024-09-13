@@ -95,13 +95,6 @@ const ProductPageDescription = () => {
             <div className="popularity">
               <span>🔥 100 vendus au cours des 35 dernières heures</span>
             </div>
-  
-            <div className="product-description">
-              <p>Animal consommé en jour de fête, animal prisé en Afrique pour son excellence gastronomique. Porte-étendard
-                de la fête de Tabaski celui-ci a été élevé dans les meilleurs conditions, avec le meilleur traitement. Analyse
-                culinaire à l'appui notre mouton est d'exception notre mouton est de haute votilge gastronomique.
-              </p>
-            </div>
           </div>
         </section>
       </div>
